@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="astroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080415"/>
+      <stop offset="50%" stop-color="#130a2a"/>
+      <stop offset="100%" stop-color="#1e0e3e"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="500" fill="url(#astroBg)"/>
+  
+  <!-- Constellation circles -->
+  <g opacity="0.4" stroke="#a855f7" stroke-width="1" fill="none">
+    <circle cx="400" cy="170" r="120" stroke-dasharray="3 6"/>
+    <circle cx="400" cy="170" r="80" stroke-dasharray="2 4"/>
+    <circle cx="400" cy="170" r="40"/>
+  </g>
+
+  <!-- Stars -->
+  <g fill="#ffffff" opacity="0.8">
+    <circle cx="220" cy="90" r="1.5"/>
+    <circle cx="580" cy="80" r="2"/>
+    <circle cx="660" cy="210" r="1.5"/>
+    <circle cx="140" cy="280" r="2"/>
+    <circle cx="260" cy="380" r="1.5"/>
+    <circle cx="680" cy="390" r="2"/>
+    <circle cx="350" cy="60" r="1"/>
+    <circle cx="470" cy="70" r="1.5"/>
+  </g>
+
+  <!-- Central Planetary Alignment Symbol -->
+  <g transform="translate(400, 170)">
+    <line x1="0" y1="-85" x2="0" y2="85" stroke="#a855f7" stroke-width="2"/>
+    <circle cx="0" cy="-60" r="8" fill="#e9d5ff"/>
+    <circle cx="0" cy="-30" r="12" fill="#d8b4fe"/>
+    <circle cx="0" cy="0" r="18" fill="#c084fc"/>
+    <circle cx="0" cy="35" r="10" fill="#a855f7"/>
+    <circle cx="0" cy="65" r="6" fill="#9333ea"/>
+    <!-- Orbit ring -->
+    <ellipse cx="0" cy="0" rx="50" ry="16" fill="none" stroke="#f3e8ff" stroke-width="1.5" opacity="0.7"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="400" y="285" text-anchor="middle" font-family="'Syne', sans-serif" font-size="28" font-weight="800" fill="#ffffff" letter-spacing="4">ALIGN ASTRO SYSTEMS</text>
+  <text x="400" y="315" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#C6F36A" letter-spacing="2">VEDIC ASTROLOGY &amp; CONSULTATION PLATFORM</text>
+  
+  <!-- Services Grid -->
+  <g transform="translate(80, 360)">
+    <rect x="0" y="0" width="120" height="36" rx="6" fill="rgba(168,85,247,0.15)" stroke="rgba(168,85,247,0.3)"/>
+    <text x="60" y="22" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#e9d5ff" font-weight="600">Birth Chart</text>
+  </g>
+  <g transform="translate(210, 360)">
+    <rect x="0" y="0" width="120" height="36" rx="6" fill="rgba(168,85,247,0.15)" stroke="rgba(168,85,247,0.3)"/>
+    <text x="60" y="22" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#e9d5ff" font-weight="600">Compatibility</text>
+  </g>
+  <g transform="translate(340, 360)">
+    <rect x="0" y="0" width="120" height="36" rx="6" fill="rgba(168,85,247,0.15)" stroke="rgba(168,85,247,0.3)"/>
+    <text x="60" y="22" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#e9d5ff" font-weight="600">Prasanam</text>
+  </g>
+  <g transform="translate(470, 360)">
+    <rect x="0" y="0" width="120" height="36" rx="6" fill="rgba(168,85,247,0.15)" stroke="rgba(168,85,247,0.3)"/>
+    <text x="60" y="22" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#e9d5ff" font-weight="600">Muhurtham</text>
+  </g>
+  <g transform="translate(600, 360)">
+    <rect x="0" y="0" width="120" height="36" rx="6" fill="rgba(168,85,247,0.15)" stroke="rgba(168,85,247,0.3)"/>
+    <text x="60" y="22" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#e9d5ff" font-weight="600">Healing</text>
+  </g>
+
+  <text x="400" y="445" text-anchor="middle" font-family="monospace" font-size="12" fill="#888888">align-astro.vercel.app • Modern Consultation Journey</text>
+</svg>

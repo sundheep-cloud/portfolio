@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1f18"/>
+      <stop offset="50%" stop-color="#0e2d24"/>
+      <stop offset="100%" stop-color="#05130f"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E5AB"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#AA7A1E"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE082"/>
+      <stop offset="100%" stop-color="#FFB300"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="500" fill="url(#bg)"/>
+  
+  <!-- Subtle decorative grid -->
+  <g stroke="rgba(212, 175, 55, 0.08)" stroke-width="1">
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="200" y1="0" x2="200" y2="500"/>
+    <line x1="400" y1="0" x2="400" y2="500"/>
+    <line x1="600" y1="0" x2="600" y2="500"/>
+  </g>
+
+  <!-- Sun Rays & Emblem -->
+  <g transform="translate(400, 160)">
+    <circle cx="0" cy="0" r="54" fill="none" stroke="url(#gold)" stroke-width="2" opacity="0.6" stroke-dasharray="4 4"/>
+    <circle cx="0" cy="0" r="42" fill="url(#sun)" opacity="0.9"/>
+    <!-- Geometric Architecture Symbol -->
+    <path d="M -24 16 L 0 -16 L 24 16 Z" fill="none" stroke="#0e2d24" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M -14 16 L 0 -2 L 14 16 Z" fill="none" stroke="#0e2d24" stroke-width="3" stroke-linejoin="round"/>
+    <line x1="0" y1="-26" x2="0" y2="-36" stroke="url(#gold)" stroke-width="3" stroke-linecap="round"/>
+    <line x1="18" y1="-18" x2="26" y2="-26" stroke="url(#gold)" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-18" y1="-18" x2="-26" y2="-26" stroke="url(#gold)" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Brand Typography -->
+  <text x="400" y="270" text-anchor="middle" font-family="'Syne', sans-serif" font-size="32" font-weight="800" fill="url(#gold)" letter-spacing="6">SUN PROPERTIES</text>
+  <text x="400" y="305" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#e0e0e0" letter-spacing="3">PREMIUM SOUTH INDIAN REAL ESTATE &amp; LAND PORTAL</text>
+  
+  <!-- Features Bar -->
+  <g transform="translate(150, 350)">
+    <rect x="0" y="0" width="150" height="44" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(212,175,55,0.3)"/>
+    <text x="75" y="26" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#F3E5AB" font-weight="600">Curated Villa Plots</text>
+  </g>
+  <g transform="translate(325, 350)">
+    <rect x="0" y="0" width="150" height="44" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(212,175,55,0.3)"/>
+    <text x="75" y="26" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#F3E5AB" font-weight="600">Verified Titles</text>
+  </g>
+  <g transform="translate(500, 350)">
+    <rect x="0" y="0" width="150" height="44" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(212,175,55,0.3)"/>
+    <text x="75" y="26" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#F3E5AB" font-weight="600">High-Ticket Leads</text>
+  </g>
+  
+  <text x="400" y="450" text-anchor="middle" font-family="monospace" font-size="12" fill="#888888">sun-properties.vercel.app • React &amp; Vercel</text>
+</svg>

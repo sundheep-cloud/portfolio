@@ -1,0 +1,22 @@
+{
+  "name": "sundheep-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Brand Portfolio for Sundheep S - Digital Marketing, Performance Marketing, SEO, and AI Websites",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve .",
+    "build": "echo 'Static production site ready'"
+  },
+  "keywords": [
+    "portfolio",
+    "performance-marketing",
+    "digital-marketing",
+    "meta-ads",
+    "seo",
+    "chennai",
+    "sundheep"
+  ],
+  "author": "Sundheep S <sundheep006@gmail.com>",
+  "license": "MIT"
+}
